@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.cpp
+iostream
+-
+Employee.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.h
+Engineer.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Engineer.h
+Trainee.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Trainee.h
+Manager.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Manager.h
+
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.h
+
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/EmployeeTest.cpp
+gtest/gtest.h
+-
+Employee.cpp
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.cpp
+
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Engineer.h
+Employee.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.h
+
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Manager.h
+Employee.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.h
+
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Trainee.h
+Employee.h
+/home/user/Downloads/Cpp-Assignments/Set-3/Employee/Employee.h
+
