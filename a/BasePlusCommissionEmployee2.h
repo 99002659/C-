@@ -1,4 +1,4 @@
-//#pragma once
+#pragma once
 #include "CommissionEmployee.h"
 
 class BasePlusCommissionEmployee2
