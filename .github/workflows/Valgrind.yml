@@ -19,5 +19,5 @@ jobs:
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: valgrind check
       run: |
-        gcc a/Payroll_test.cc
-        valgrind chmod 777 a/Payroll.o
+        gcc c++ mini/Payroll_test.cpp
+        valgrind chmod 777 c++ mini/Payroll_test.o
